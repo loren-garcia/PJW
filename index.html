@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kubernetes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="assets/favicon.png" />
+</head>
+<body>
+    <header>
+        <a href="https://kubernetes.io/pt/"><div id="logo"></div></a>
+        <nav>
+            <ul>
+                <li class="list-ident"><a id="nav1" href="https://kubernetes.io/pt/docs/">Documentação</a></li>
+                <li class="list-ident"><a id="nav2" href="https://kubernetes.io/pt/blog/">Blog</a></li>
+                <li class="list-ident"><a id="nav3" href="https://kubernetes.io/pt/partners/">Parceiros</a></li>
+                <li class="list-ident"><a id="nav4" href="https://kubernetes.io/pt/community/">Comunidade</a></li>
+                <li class="list-ident"><a id="nav5" href="https://kubernetes.io/pt/case-studies/">Casos de estudo</a></li>
+                <li><button id="vColor" class="versions-btn btn" onclick="clickDropdown()">Versions
+                    <div class="dropdown-menu"></div>
+                    </button>
+                </li>
+                <li><button id="lColor" class="languages-btn btn" onclick="clickDropdown()">Português
+                    <div class="dropdown-menu"></div>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <button id="hamburger" onclick="openSideNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+    </header>
+    <div class="versions-menu" id="versionsMenu">
+        <a href="#18">v1.18</a>
+        <a href="#17">v1.17</a>
+        <a href="#16">v1.16</a>
+        <a href="#15">v1.15</a>
+        <a href="#14">v1.14</a>
+    </div>
+    <div class="languages-menu" id="languagesMenu">
+        <a href="#English">English</a>
+        <a href="#Chinese">中文 Chinese</a>
+        <a href="#Korean">한국어 Korean</a>
+        <a href="#Japanese">日本語 Japanese</a>
+        <a href="#Français">Français</a>
+        <a href="#Italiano">Italiano</a>
+        <a href="#Deutsch">Deutsch</a>
+        <a href="#Español">Español</a>
+        <a href="Bahasa Indonesia">Bahasa Indonesia</a>
+        <a href="#Tiếng Việt">Tiếng Việt</a>
+        <a href="#Русский">Русский</a>
+        <a href="#Polski">Polski</a>
+        <a href="#Українська">Українська</a>
+    </div>
+    <div id="header-main">
+        <div id="header-main-content">
+            <h2>Black lives matter.</h2>
+            <p>We stand in solidarity with the Black community.<br>
+                Racism is unacceptable.<br>
+                It conflicts with the <u><a href="https://git.k8s.io/community/values.md">core values of the Kubernetes project</a></u> 
+                and our community does not tolerate it.</p>
+        </div>
+    </div>
+    <div id="header-footer">
+        <h1>Orquestração de contêineres prontos para produção</h1>
+        <h3>Implantação, dimensionamento e gerenciamento automatizado de 
+            contêineres</h3>
+    </div>
+    <div id="body-content">
+        <div id="body-content-text">
+            <h2>Kubernetes (K8s) é um produto Open Source utilizado para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em contêiner.</h2>
+            <p>Ele agrupa contêineres que compõem uma aplicação em unidades lógicas para facilitar o gerenciamento e a descoberta de serviço. O Kubernetes se baseia em <span>15 anos de experiência na execução de containers em produção no Google</span>, combinado com as melhores ideias e práticas da comunidade.</p>
+        </div>
+        <div id="body-content-image"></div>
+    </div>
+    <div id="rightSidenav" class="right-sidenav">
+        <spam href="javascript:void(0)" class="close-btn" onclick="closeSideNav()">&times;</spam>
+        <a href="#Doc">Documentação</a>
+        <a href="#Blog">Blog</a>
+        <a href="#Partnership">Parceiros</a>
+        <a href="#Community">Comunidade</a>
+        <a href="#Cases">Casos de estudo</a>
+        <a href="#">Versions
+            <div class="dropdown-menu"></div>
+        </a>
+            <a class="sidenav-items" href="#18">v1.18</a>
+            <a class="sidenav-items" href="#17">v1.17</a>
+            <a class="sidenav-items" href="#16">v1.16</a>
+            <a class="sidenav-items" href="#15">v1.15</a>
+            <a class="sidenav-items" href="#14">v1.14</a>
+        <a href="#">Português
+            <div class="dropdown-menu"></div>
+        </a>
+            <a class="sidenav-items" href="#English">English</a>
+            <a class="sidenav-items" href="#Chinese">中文 Chinese</a>
+            <a class="sidenav-items" href="#Korean">한국어 Korean</a>
+            <a class="sidenav-items" href="#Japanese">日本語 Japanese</a>
+            <a class="sidenav-items" href="#Français">Français</a>
+            <a class="sidenav-items" href="#Italiano">Italiano</a>
+            <a class="sidenav-items" href="#Deutsch">Deutsch</a>
+            <a class="sidenav-items" href="#Español">Español</a>
+            <a class="sidenav-items" href="Bahasa Indonesia">Bahasa Indonesia</a>
+            <a class="sidenav-items" href="#Tiếng Việt">Tiếng Việt</a>
+            <a class="sidenav-items" href="#Русский">Русский</a>
+            <a class="sidenav-items" href="#Polski">Polski</a>
+            <a class="sidenav-items" href="#Українська">Українська</a>
+    </div>
+    <div id="overlay" onclick="closeSideNav()"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
